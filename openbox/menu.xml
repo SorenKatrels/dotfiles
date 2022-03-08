@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="OpenBox 3">
+        <menu id="1" label="Development">
+            <item label="GitHub Desktop"> <action name="Execute">
+                <execute>github-desktop</execute>
+            </action> </item>
+            <item label="Icon Browser"> <action name="Execute">
+                <execute>yad-icon-browser</execute>
+            </action> </item>
+            <item label="IDLE (Python IDE)"> <action name="Execute">
+                <execute>idle</execute>
+            </action> </item>
+            <item label="Meld"> <action name="Execute">
+                <execute>meld</execute>
+            </action> </item>
+            <item label="Python"> <action name="Execute">
+                <execute>xterm -e python</execute>
+            </action> </item>
+            <item label="Python (v2.7)"> <action name="Execute">
+                <execute>xterm -e python2.7</execute>
+            </action> </item>
+            <item label="Tclsh8.6"> <action name="Execute">
+                <execute>xterm -e tclsh8.6</execute>
+            </action> </item>
+        </menu>
+        <menu id="2" label="Editors">
+            <item label="AA Fire"> <action name="Execute">
+                <execute>xterm -e aafire -driver slang</execute>
+            </action> </item>
+            <item label="Nano"> <action name="Execute">
+                <execute>xterm -e nano</execute>
+            </action> </item>
+            <item label="Text Editor"> <action name="Execute">
+                <execute>xed</execute>
+            </action> </item>
+        </menu>
+        <menu id="8" label="Education">
+            <item label="Anki"> <action name="Execute">
+                <execute>anki</execute>
+            </action> </item>
+        </menu>
+        <menu id="18" label="Games">
+            <menu id="9" label="Adventure">
+                <item label="NXEngine"> <action name="Execute">
+                    <execute>nxengine</execute>
+                </action> </item>
+                <item label="Sclient"> <action name="Execute">
+                    <execute>sclient</execute>
+                </action> </item>
+            </menu>
+            <menu id="10" label="Arcade">
+                <item label="PacMan"> <action name="Execute">
+                    <execute>pacman</execute>
+                </action> </item>
+            </menu>
+            <item label="Dolphin Emulator"> <action name="Execute">
+                <execute>env QT_QPA_PLATFORM=xcb dolphin-emu</execute>
+            </action> </item>
+            <item label="DuckStation NoGUI"> <action name="Execute">
+                <execute>duckstation-nogui</execute>
+            </action> </item>
+            <item label="DuckStation Qt"> <action name="Execute">
+                <execute>duckstation-qt</execute>
+            </action> </item>
+            <item label="Terraria"> <action name="Execute">
+                <execute>steam steam://rungameid/105600</execute>
+            </action> </item>
+        </menu>
+        <menu id="6" label="Graphics">
+            <item label="dotty"> <action name="Execute">
+                <execute>dotty</execute>
+            </action> </item>
+            <item label="GNU Image Manipulation Program"> <action name="Execute">
+                <execute>gimp-2.10</execute>
+            </action> </item>
+            <item label="lefty"> <action name="Execute">
+                <execute>lefty</execute>
+            </action> </item>
+            <item label="The GIMP"> <action name="Execute">
+                <execute>gimp</execute>
+            </action> </item>
+            <item label="XColor"> <action name="Execute">
+                <execute>xcolor -s</execute>
+            </action> </item>
+        </menu>
+        <menu id="7" label="Multimedia">
+            <item label="ALSA mixer"> <action name="Execute">
+                <execute>xterm -e alsamixer</execute>
+            </action> </item>
+            <item label="Ario"> <action name="Execute">
+                <execute>ario</execute>
+            </action> </item>
+            <item label="HandBrake"> <action name="Execute">
+                <execute>ghb</execute>
+            </action> </item>
+            <item label="mpv Media Player"> <action name="Execute">
+                <execute>mpv --player-operation-mode=pseudo-gui</execute>
+            </action> </item>
+            <item label="PulseAudio Volume Control"> <action name="Execute">
+                <execute>pavucontrol</execute>
+            </action> </item>
+            <item label="Qt V4L2 test Utility"> <action name="Execute">
+                <execute>qv4l2</execute>
+            </action> </item>
+            <item label="Qt V4L2 video capture utility"> <action name="Execute">
+                <execute>qvidcap</execute>
+            </action> </item>
+            <item label="Sneedacity"> <action name="Execute">
+                <execute>env UBUNTU_MENUPROXY=0 sneedacity</execute>
+            </action> </item>
+        </menu>
+        <menu id="5" label="Network">
+            <item label="Avahi SSH Server Browser"> <action name="Execute">
+                <execute>bssh</execute>
+            </action> </item>
+            <item label="Avahi VNC Server Browser"> <action name="Execute">
+                <execute>bvnc</execute>
+            </action> </item>
+            <item label="Discord"> <action name="Execute">
+                <execute>discord</execute>
+            </action> </item>
+            <item label="FireFox"> <action name="Execute">
+                <execute>firefox</execute>
+            </action> </item>
+            <item label="FTP"> <action name="Execute">
+                <execute>xterm -e ftp</execute>
+            </action> </item>
+            <item label="Mail"> <action name="Execute">
+                <execute>xterm -e mail</execute>
+            </action> </item>
+            <item label="Ripcord"> <action name="Execute">
+                <execute>ripcord</execute>
+            </action> </item>
+            <item label="Steam (Runtime)"> <action name="Execute">
+                <execute>steam-runtime</execute>
+            </action> </item>
+            <item label="Talk"> <action name="Execute">
+                <execute>xterm -e talk</execute>
+            </action> </item>
+            <item label="Telnet"> <action name="Execute">
+                <execute>xterm -e telnet</execute>
+            </action> </item>
+            <item label="TkVNC"> <action name="Execute">
+                <execute>xterm -e tkvnc</execute>
+            </action> </item>
+            <item label="Transmission"> <action name="Execute">
+                <execute>transmission-gtk</execute>
+            </action> </item>
+        </menu>
+        <menu id="3" label="Office">
+            <item label="Calibre"> <action name="Execute">
+                <execute>calibre</execute>
+            </action> </item>
+            <item label="E-book editor"> <action name="Execute">
+                <execute>ebook-edit</execute>
+            </action> </item>
+            <item label="E-book viewer"> <action name="Execute">
+                <execute>ebook-viewer</execute>
+            </action> </item>
+            <item label="LRF viewer"> <action name="Execute">
+                <execute>lrfviewer</execute>
+            </action> </item>
+        </menu>
+        <menu id="4" label="Science">
+            <item label="bc"> <action name="Execute">
+                <execute>xterm -e bc</execute>
+            </action> </item>
+            <item label="dc"> <action name="Execute">
+                <execute>xterm -e dc</execute>
+            </action> </item>
+        </menu>
+        <menu id="19" label="Shells">
+            <item label="Alacritty"> <action name="Execute">
+                <execute>alacritty</execute>
+            </action> </item>
+            <item label="GIT"> <action name="Execute">
+                <execute>xterm -e git</execute>
+            </action> </item>
+            <item label="UXTerm"> <action name="Execute">
+                <execute>uxterm</execute>
+            </action> </item>
+            <item label="Xterm"> <action name="Execute">
+                <execute>xterm</execute>
+            </action> </item>
+        </menu>
+        <menu id="37" label="System">
+            <menu id="36" label="Settings">
+                <menu id="21" label="GNOME">
+                    <item label="Advanced Network Configuration"> <action name="Execute">
+                        <execute>nm-connection-editor</execute>
+                    </action> </item>
+                    <item label="Bluetooth"> <action name="Execute">
+                        <execute>blueberry</execute>
+                    </action> </item>
+                    <item label="Languages"> <action name="Execute">
+                        <execute>mintlocale</execute>
+                    </action> </item>
+                </menu>
+                <item label="ARandR"> <action name="Execute">
+                    <execute>arandr</execute>
+                </action> </item>
+                <item label="Customize Look and Feel"> <action name="Execute">
+                    <execute>lxappearance</execute>
+                </action> </item>
+                <item label="Default applications for LXSession"> <action name="Execute">
+                    <execute>lxsession-default-apps</execute>
+                </action> </item>
+                <item label="Desktop Session Settings"> <action name="Execute">
+                    <execute>lxsession-edit</execute>
+                </action> </item>
+                <item label="Fcitx Configuration"> <action name="Execute">
+                    <execute>fcitx-configtool</execute>
+                </action> </item>
+                <item label="Grub Customizer"> <action name="Execute">
+                    <execute>grub-customizer</execute>
+                </action> </item>
+                <item label="Manage Printing"> <action name="Execute">
+                    <execute>xdg-open http://localhost:631/</execute>
+                </action> </item>
+                <item label="Openbox Configuration Manager"> <action name="Execute">
+                    <execute>obconf</execute>
+                </action> </item>
+                <item label="Print Settings"> <action name="Execute">
+                    <execute>system-config-printer</execute>
+                </action> </item>
+                <item label="Qt5 Settings"> <action name="Execute">
+                    <execute>qt5ct</execute>
+                </action> </item>
+                <item label="YAD settings"> <action name="Execute">
+                    <execute>yad-settings</execute>
+                </action> </item>
+            </menu>
+            <item label="akm"> <action name="Execute">
+                <execute>akm</execute>
+            </action> </item>
+            <item label="Avahi Zeroconf Browser"> <action name="Execute">
+                <execute>avahi-discover</execute>
+            </action> </item>
+            <item label="Configure EOS Update Notifier"> <action name="Execute">
+                <execute>eos-update-notifier-configure</execute>
+            </action> </item>
+            <item label="dconf Editor"> <action name="Execute">
+                <execute>dconf-editor</execute>
+            </action> </item>
+            <item label="Disk Usage Analyzer"> <action name="Execute">
+                <execute>baobab</execute>
+            </action> </item>
+            <item label="EndeavourOS log tool"> <action name="Execute">
+                <execute>eos-log-tool</execute>
+            </action> </item>
+            <item label="Fcitx"> <action name="Execute">
+                <execute>fcitx</execute>
+            </action> </item>
+            <item label="Grsync"> <action name="Execute">
+                <execute>grsync</execute>
+            </action> </item>
+            <item label="Hardware Locality lstopo"> <action name="Execute">
+                <execute>lstopo</execute>
+            </action> </item>
+            <item label="Htop"> <action name="Execute">
+                <execute>xterm -e htop</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>xterm -e /usr/bin/pstree.x11</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>xterm -e pstree</execute>
+            </action> </item>
+            <item label="pstree"> <action name="Execute">
+                <execute>xterm -e pstree.x11</execute>
+            </action> </item>
+            <item label="Reflector Simple"> <action name="Execute">
+                <execute>reflector-simple</execute>
+            </action> </item>
+            <item label="Software Token"> <action name="Execute">
+                <execute>stoken-gui</execute>
+            </action> </item>
+            <item label="Software Token (small)"> <action name="Execute">
+                <execute>stoken-gui --small</execute>
+            </action> </item>
+            <item label="Top"> <action name="Execute">
+                <execute>xterm -e top</execute>
+            </action> </item>
+            <item label="UpdateInTerminal"> <action name="Execute">
+                <execute>UpdateInTerminal --nt</execute>
+            </action> </item>
+        </menu>
+        <menu id="38" label="Utilities">
+            <item label="Archive Manager"> <action name="Execute">
+                <execute>file-roller</execute>
+            </action> </item>
+            <item label="BetterDiscord"> <action name="Execute">
+                <execute>betterdiscord-installer</execute>
+            </action> </item>
+            <item label="compton"> <action name="Execute">
+                <execute>compton</execute>
+            </action> </item>
+            <item label="Disks"> <action name="Execute">
+                <execute>gnome-disks</execute>
+            </action> </item>
+            <item label="Font Manager"> <action name="Execute">
+                <execute>font-manager</execute>
+            </action> </item>
+            <item label="Font Viewer"> <action name="Execute">
+                <execute>/usr/lib/font-manager/font-viewer</execute>
+            </action> </item>
+            <item label="Galculator"> <action name="Execute">
+                <execute>galculator</execute>
+            </action> </item>
+            <item label="Info"> <action name="Execute">
+                <execute>xterm -e info</execute>
+            </action> </item>
+            <item label="Nemo"> <action name="Execute">
+                <execute>nemo</execute>
+            </action> </item>
+            <item label="picom"> <action name="Execute">
+                <execute>picom</execute>
+            </action> </item>
+            <item label="Plank"> <action name="Execute">
+                <execute>plank</execute>
+            </action> </item>
+            <item label="Touché"> <action name="Execute">
+                <execute>com.github.joseexposito.touche</execute>
+            </action> </item>
+            <item label="Xev"> <action name="Execute">
+                <execute>xterm -e xev</execute>
+            </action> </item>
+            <item label="Xkill"> <action name="Execute">
+                <execute>xkill</execute>
+            </action> </item>
+        </menu>
+        <separator/>
+        <menu id="40" label="OpenBox">
+            <menu id="client-list-menu"/>
+            <item label="Reconfigure"> <action name="Reconfigure"/> </item>
+            <separator/>
+            <item label="Exit"> <action name="Exit"/> </item>
+        </menu>
+    </menu>
+</openbox_menu>
